@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Farmer Subsidy Management System
 
 ## Project Description
@@ -72,3 +73,6 @@ Collections:
 ## Author
 
 Sowmiya
+=======
+# Farmer-Subsidy-Management-System
+>>>>>>> 7e73649bfbb76113ed3eab7e97685e4e85a83ed1
