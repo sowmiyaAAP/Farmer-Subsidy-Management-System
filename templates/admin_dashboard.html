@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Admin Dashboard</title>
+</head>
+<body>
+
+<h1>WELCOME ADMIN</h1>
+
+<h2>All Subsidy Applications</h2>
+
+<hr>
+
+{% for item in data %}
+
+<p><b>Name :</b> {{ item.name }}</p>
+
+<p><b>Subsidy Type :</b> {{ item.subsidy_type }}</p>
+
+<p><b>Amount :</b> {{ item.amount }}</p>
+
+<p><b>Reason :</b> {{ item.reason }}</p>
+
+<p><b>Status :</b> {{ item.status }}</p>
+
+{% if item.status == "Pending" %}
+
+<a href="/approve/{{ item._id }}">
+    <button>Approve</button>
+</a>
+
+{% else %}
+
+<p style="color:green;"><b>✔ Approved</b></p>
+
+{% endif %}
+
+<hr>
+
+{% endfor %}
+
+</body>
+</html>

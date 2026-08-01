@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Subsidy Status</title>
+</head>
+<body>
+
+<h1>Subsidy Status</h1>
+
+<table border="1">
+    <tr>
+        <th>Name</th>
+        <th>Subsidy Type</th>
+        <th>Amount</th>
+        <th>Status</th>
+    </tr>
+
+    {% for row in data %}
+    <tr>
+        <td>{{ row[1] }}</td>
+        <td>{{ row[2] }}</td>
+        <td>{{ row[3] }}</td>
+        <td>{{ row[5] }}</td>
+    </tr>
+    {% endfor %}
+
+</table>
+
+</body>
+</html>
