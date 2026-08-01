@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Farmer Subsidy Management System
 
 ## Project Description
@@ -12,7 +11,7 @@ Farmer Subsidy Management System is a web application developed using Flask and 
 - Admin Login
 - Admin Dashboard
 - Approve Subsidy Applications
-- MongoDB Database Integration
+- MongoDB Integration
 
 ## Technologies Used
 - Python
@@ -23,56 +22,10 @@ Farmer Subsidy Management System is a web application developed using Flask and 
 
 ## Installation
 
-1. Install Python
-2. Install MongoDB
-3. Install required packages
-
 ```bash
 pip install -r requirements.txt
-```
-
-4. Run the application
-
-```bash
 python app.py
 ```
 
-5. Open browser
-
-```
-http://127.0.0.1:5000
-```
-
-## Project Structure
-
-```
-Farmer-Subsidy-Management-System
-│
-├── app.py
-├── requirements.txt
-├── README.md
-├── templates
-├── static
-```
-
-## Database
-
-MongoDB
-
-Database Name:
-
-```
-Farmer_Database
-```
-
-Collections:
-
-- farmers
-- subsidy
-
 ## Author
-
 Sowmiya
-=======
-# Farmer-Subsidy-Management-System
->>>>>>> 7e73649bfbb76113ed3eab7e97685e4e85a83ed1
