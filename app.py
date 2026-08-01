@@ -10,8 +10,7 @@ app.secret_key = "farmer_secret_key"
 
 # ---------------- MONGODB CONNECTION ----------------
 
-client = MongoClient("mongodb://localhost:27017/")
-
+client = MongoClient("mongodb+srv://71382502164sowmiya_db_user:sowmiya2008@cluster0.6jpmchn.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 try:
     client.admin.command("ping")
     print("MongoDB Connected Successfully")
